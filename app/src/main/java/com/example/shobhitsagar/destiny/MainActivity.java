@@ -35,13 +35,13 @@ public class MainActivity extends AppCompatActivity {
         generate.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                String f = first.getText().toString();
-                String s = second.getText().toString();
-                String t = third.getText().toString();
+                String fr = first.getText().toString();
+                String sc = second.getText().toString();
+                String tr = third.getText().toString();
 
-                strings = new String[]{f, s, t};
-                int rando = (int) (Math.random() * 3);
-                destinytxt.setText(strings[rando]);
+                strings = new String[]{fr, sc, tr};
+                int rand = (int) (Math.random() * 3);
+                destinytxt.setText(strings[rand]);
             }
         });
 
