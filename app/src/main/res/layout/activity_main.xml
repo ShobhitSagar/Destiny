@@ -14,9 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="#E91E63"
-        android:hint="What is your destiny!"
+        android:hint="What is your DESTINY!"
         android:textAlignment="center"
-        android:textSize="36sp" />
+        android:textSize="35sp" />
 
     <EditText
         android:id="@+id/first"
